@@ -21,8 +21,8 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/about.html">About</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/howitworks.html">How it works ?</a></li>
+          <li><a href="/team.html">Team</a></li>
         </ul>
       </nav>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -35,7 +35,9 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
-      
+      <div class="header-logo">
+        <img src="{{ './img/logo-grec-grants.png' | relative_url }}" alt="Your Logo Alt Text" style="max-width: 80px; height: 80px;">
+    </div>
     </header>
 
     <main id="content" class="main-content" role="main">

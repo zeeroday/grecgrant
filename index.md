@@ -3,45 +3,65 @@ layout: default
 ---
 
 
+<div class="video-and-description">
+    <!-- Video Section -->
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/677ZtSMr4-4?si=g_csoMIs3bRguMoB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="video-description">
+        <p>This video explain to you how the grec grant program can helps you get funding for your startup.</p>
+    </div>
+</div>
 
 ---
 
-# Home
+### Bridging Education and Entrepreneurship with GREC Grants
 
-### Bridging Education and Entrepreneurship
+The GREC Grant Program, part of [Your Organization/Team Name], equips students with critical skills for the modern economy by integrating academic knowledge with real-world entrepreneurship. We offer grants to transform innovative ideas into reality, supporting students in making significant contributions to the economy. This initiative not only fosters adaptability and creativity but also provides vital funding for emerging entrepreneurs.
 
-In an era of unprecedented changes in the job market, the need for adaptability, responsiveness, and creativity has never been more crucial. The Student-Entrepreneur Internship Program, initiated by [Your Organization/Team Name], is designed to nurture these competencies in students, empowering them to contribute significantly to both local and international economic landscapes. Join us in redefining the integration of academic learning and practical entrepreneurship.
+---
 
-# Program
+### Key Benefits for Students
 
-### How It Works
+- **Practical Experience:** Launch and develop ventures with our real-world platform.
+- **Skill Enhancement:** Improve in problem-solving, project management, and leadership.
+- **Financial Support:** Receive funding to alleviate study-related financial pressures.
+- **Access to Funding:** Leverage our network to find resources for your projects.
 
-The program operates on two fundamental schemas:
+Join us to shape the future of education and entrepreneurship, turning your visionary projects into tangible successes.
 
-1. **Project-by-Project Funding**: Each student or team can pitch their project idea to potential sponsors, investors, and funding bodies. This model allows for targeted funding, ensuring that each project has the resources it needs to succeed.
-
-2. **Resources for Funding**: We've developed a comprehensive mind map outlining potential funding sources, including grants, scholarships, sponsorships, and partnerships. This resource aims to guide students in securing the necessary funds for their projects.
-
-### Benefits for Students
-
-- **Hands-On Experience**: Gain practical experience by bringing innovative ideas to life.
-- **Skill Development**: Enhance abilities in problem-solving, project management, and entrepreneurship.
-- **Financial Support**: Receive compensation for your contributions to the program, alleviating financial pressures during your studies.
+---
 
 ### Support the Program
 
-We're actively seeking partners, sponsors, and donors to help us expand the reach and impact of the Student-Entrepreneur Internship Program. Your support can make a significant difference in the lives of students and the future of innovation.
+We're calling on foundations, investors, and corporates dedicated to social responsibility to support the GREC Grant Program. Your contributions help us turn innovative ideas into successful ventures, demonstrating the powerful impact of your investment in future leaders and sustainable solutions.
 
-# Contact
+<div style="display: flex; justify-content: space-around; align-items: flex-start;">
+    <div style="width: 30%;">
+        <img src="/img/project1.jpeg" alt="Sustainable Meal Kit" style="width: 100%;">
+        <h3>Personalized Sustainable Meal Kit</h3>
+        <p>A personalized, sustainable meal kit delivery service that promotes environmental sustainability.</p>
+    </div>
+    <div style="width: 30%;">
+        <img src="/img/project2.jpeg" alt="Educational Technology" style="width: 100%;">
+        <h3>Educational Technology for Schools</h3>
+        <p>Educational technology for underprivileged schools, enhancing learning with interactive software.</p>
+    </div>
+    <div style="width: 30%;">
+        <img src="/img/project3.jpeg" alt="Online Mentorship Platform" style="width: 100%;">
+        <h3>Online Mentorship Platform</h3>
+        <p>An online mentorship platform connecting students with alumni for guidance and career development.</p>
+    </div>
+</div>
 
-### Get Involved
+Your support not only helps expand our program but also empowers a new generation of entrepreneurs to drive positive change. If you're passionate about fostering innovation and sustainability through education and entrepreneurship, we welcome your partnership.
 
-Whether you’re a student with a brilliant idea, a potential sponsor, or an interested partner, we’d love to hear from you. Contact us to learn more about the program, discuss partnership opportunities, or submit your project proposal.
-
-- **Email**: [Your Contact Email]
-- **Phone**: [Your Contact Number]
-- **Address**: [Your Office/Mailing Address]
+**Get Involved:** For more details on supporting our efforts and making a difference, please get in touch. Let's work together to shape an entrepreneurial future.
 
 ---
 
-This template aims to provide a comprehensive overview of your initiative, attract interest from potential students, sponsors, and partners, and clearly communicate the mission and benefits of your program. Ensure your website is easy to navigate, visually appealing, and includes calls to action (e.g., "Apply Now," "Donate," "Contact Us") to encourage engagement.
+# Contact
+Whether you’re a student with a brilliant idea, a potential sponsor, or an interested partner, we’d love to hear from you. Contact us to learn more about the program, discuss partnership opportunities, or submit your project proposal.
+
+- **Email**: anatoly.grebenyuk@etu.unige.ch
+- **Address**: 24 rue du Général-Dufour 1211 Genève 4

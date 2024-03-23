@@ -90,3 +90,98 @@ nav ul li a:hover {
     height: 400px; /* Height set to match LinkedIn profile picture size */
     object-fit: cover; /* Ensures the image covers the area, useful if the original isn't square */
 }
+.video-and-description {
+    display: flex;
+    align-items: center; /* This will vertically align the items in the middle */
+    justify-content: flex-start; /* Aligns items to the start of the container, ensuring they're side by side */
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: 300px; /* Makes the video responsive */
+}
+
+.video-description {
+    padding-left: 20px; /* Adds some space between the video and the description */
+    width: 40%; /* Adjust this value as needed to control the text width */
+}
+
+@media (max-width: 768px) {
+    .video-and-description {
+        flex-direction: column; /* Stacks the video and description vertically on small screens */
+    }
+
+    .video-description {
+        padding-left: 0;
+        width: 100%; /* Allows the description to take full width on small screens */
+        padding-top: 20px; /* Adds some space between the video and the description */
+    }
+}
+
+
+.photo-link-section {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+.photo-container img {
+    width: 50px; /* Or any other size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.photo-description {
+    padding-left: 20px; /* Adds some space between the photo and the description/link */
+}
+
+@media (max-width: 768px) {
+    .photo-link-section {
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the start on smaller screens */
+    }
+
+    .photo-description {
+        padding-left: 0;
+        padding-top: 10px; /* Adds some space above the description/link on smaller screens */
+    }
+}
+
+
+/* Team Page Specific Styles */
+.main-content-team {
+    padding: 20px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.team-member {
+    flex-basis: calc(33% - 20px);
+    text-align: center;
+}
+
+#team-members h2 {
+    text-align: center; /* Centers the "Our Creative Minds" heading */
+}
+
+.team-member-photo {
+    width: 200px; /* Adjust based on your design preference */
+    height: auto;
+    border-radius: 50%; /* Circular photos */
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .team-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        flex-basis: 100%;
+    }
+}
