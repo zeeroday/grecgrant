@@ -60,6 +60,56 @@ Your support not only helps expand our program but also empowers a new generatio
 
 ---
 
+<h2 class="center-text">How it works ?</h2>
+<p>The program operates on two fundamental schemas:</p>
+<ol>
+    <li><strong>Project-by-Project Funding</strong>: Each student or team can pitch their project idea to potential sponsors, investors, and funding bodies. This model allows for targeted funding, ensuring that each project has the resources it needs to succeed.</li>
+    <li><strong>Resources for Funding</strong>: We've developed a comprehensive mind map outlining potential funding sources, including grants, scholarships, sponsorships, and partnerships. This resource aims to guide students in securing the necessary funds for their projects.</li>
+</ol>
+<!-- </section> -->
+<!-- Include other sections as needed -->
+
+    
+<h2 class="center-text">Our Creative Minds</h2>
+<main id="content" class="main-content-team" role="main">
+        <!-- Team Members Section -->
+        <section id="team-members">
+
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <img src="/img/profile1-anatoly.jpeg" alt="Team Member 1" class="team-member-photo">
+                    <h3>Jane Doe</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <img src="/img/profile2-marius.jpeg" alt="Team Member 2" class="team-member-photo">
+                    <h3>John Smith</h3>
+                    <p>Chief Technology Officer</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <img src="/img/profile3-nicole.jpeg" alt="Team Member 3" class="team-member-photo">
+                    <h3>Alice Johnson</h3>
+                    <p>Marketing Director</p>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="team-member">
+                    <img src="/img/profile4-oday.jpeg" alt="Team Member 4" class="team-member-photo">
+                    <h3>Bob Brown</h3>
+                    <p>Lead Designer</p>
+                </div>
+                <!-- Team Member 5 -->
+                <div class="team-member">
+                    <img src="/img/profile5-valeria.jpeg" alt="Team Member 5" class="team-member-photo">
+                    <h3>Carol White</h3>
+                    <p>Software Engineer</p>
+                </div>
+            </div>
+        </section>
+</main>
+
 # Contact
 Whether you’re a student with a brilliant idea, a potential sponsor, or an interested partner, we’d love to hear from you. Contact us to learn more about the program, discuss partnership opportunities, or submit your project proposal.
 
