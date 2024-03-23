@@ -1,6 +1,40 @@
+/* Style for the menu of the website */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+nav ul { list-style-type: none; padding: 0; }
+
+nav ul li { display: inline; margin-right: 10px; }
+
+nav ul li a { color: white; /* This sets the text color of the menu items to white */ text-decoration: none; /* Optionally, removes the underline from links */ }
+
+/* You might also want to add a hover effect to improve usability */
+nav ul li a:hover { text-decoration: underline; /* Adds an underline to links on hover */ }
+
+/* Style for small button next to the menu */
+.btn-small { display: inline-block; margin-bottom: 0.5rem; /* Smaller margin */ padding: 0.25rem 0.5rem; /* Smaller padding to reduce button size */ font-size: 0.8rem; /* Smaller font size */ color: #ffffff; /* Solid white color for text */ background-color: #007bff; /* A distinct, solid background color */ border-color: #007bff; /* Matching border color */ border-style: solid; border-width: 1px; border-radius: 0.3rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+.btn-small:hover { color: #ffffff; /* Keeps the text color solid white on hover */ text-decoration: none; background-color: #0056b3; /* Darker shade on hover */ border-color: #0056b3; }
+
+/* Style for centering content */
+.main-content-about, main-about { max-width: 800px; /* Adjust as needed */ margin: 0 auto; /* Centers the content */ padding: 0 20px; /* Adds some padding on the sides */ text-align: center; /* Center text */ }
+
+/* Custom styles for the About page */
+#our-mission, #partners { margin: 2rem 0; }
+
+#our-mission h1, #partners h2 { color: #425878; /* Example color, adjust as needed */ }
+
+#partners { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; /* Adjust the space between partner blocks */ }
+
+.partner { flex-basis: calc(33% - 20px); /* Three partners per row with gap adjustment */ text-align: center; /* Center-align the content of each partner */ }
+
+.partner img { max-width: 100%; /* Make images responsive */ height: auto; }
+
+.partners-grid { display: flex; justify-content: center; /* Centers the partner logos in the container */ flex-wrap: wrap; /* Allows logos to wrap on smaller screens */ gap: 20px; /* Adjusts the space between logos */ }
+
+.partner { text-align: center; /* Centers the text under the logo */ }
+
+.partner-logo { width: 400px; /* Width set to match LinkedIn profile picture size */ height: 400px; /* Height set to match LinkedIn profile picture size */ object-fit: cover; /* Ensures the image covers the area, useful if the original isn't square */ }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /** Remove default margin. */
@@ -269,7 +303,7 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .btn { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
   .btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); }
+.page-header { color: #fff; text-align: center; background-color: #425878; background-image: linear-gradient(120deg, #155799, #425878); }
 @media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
@@ -291,7 +325,7 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; } }
 .main-content kbd { background-color: #fafbfc; border: 1px solid #c6cbd1; border-bottom-color: #959da5; border-radius: 3px; box-shadow: inset 0 -1px 0 #959da5; color: #444d56; display: inline-block; font-size: 11px; line-height: 10px; padding: 3px 5px; vertical-align: middle; }
 .main-content img { max-width: 100%; }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #425878; }
 .main-content p { margin-bottom: 1em; }
 .main-content code { padding: 2px 4px; font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 0.9rem; color: #567482; background-color: #f3f6fa; border-radius: 0.3rem; }
 .main-content pre { padding: 0.8rem; margin-top: 0; margin-bottom: 1rem; font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace; color: #567482; word-wrap: normal; background-color: #f3f6fa; border: solid 1px #dce6f0; border-radius: 0.3rem; }

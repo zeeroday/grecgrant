@@ -12,16 +12,6 @@ layout: default
 
 In an era of unprecedented changes in the job market, the need for adaptability, responsiveness, and creativity has never been more crucial. The Student-Entrepreneur Internship Program, initiated by [Your Organization/Team Name], is designed to nurture these competencies in students, empowering them to contribute significantly to both local and international economic landscapes. Join us in redefining the integration of academic learning and practical entrepreneurship.
 
-# About
-
-### Our Mission
-
-We believe in the potential of students to drive innovation and create impactful solutions. The Student-Entrepreneur Internship Pr`ogram aims to bridge the gap between academic learning and the practical world of entrepreneurship. This initiative seeks not only to equip students with essential skills for the modern workplace but also to address the growing issue of student precariousness by providing paid opportunities. Our mission is to foster a new generation of entrepreneurs ready to take on the world's challenges.
-
-### The Challenge
-
-The current landscape of higher education often leaves students having to choose between pursuing their studies and working to support themselves. This dilemma can hinder their ability to gain practical skills and experience necessary for today’s dynamic work environment. Moreover, the lack of funding for entrepreneurial initiatives within academic settings has become a significant barrier to innovation and development. The Student-Entrepreneur Internship Program is our answer to these challenges.
-
 # Program
 
 ### How It Works
